@@ -5,15 +5,11 @@ Orquestra a leitura do GPS via serial, parsing NMEA e publicação MQTT.
 Suporta execução como daemon (serviço systemd) ou modo interativo.
 
 """
-
-import json
 import logging
-import signal
 import sys
 import time
 import configparser
 import os
-from datetime import datetime
 from typing import Optional
 
 from dotenv import load_dotenv

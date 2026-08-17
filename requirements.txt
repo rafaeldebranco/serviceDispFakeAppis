@@ -1,0 +1,16 @@
+# Vehicle Tracker - Dependências
+# Instalar com: pip3 install -r requirements.txt
+
+# Cliente MQTT
+paho-mqtt>=2.1.0
+
+# Interação com o sistema operacional
+psutil>=7.2.2
+
+Pillow>=12.0.0
+requests>=2.32.3
+schedule>=1.2.2
+
+python-dotenv>=1.0.0
+
+gunicorn>=20.1.0
